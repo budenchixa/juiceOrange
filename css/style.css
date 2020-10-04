@@ -31,6 +31,8 @@ body {
   justify-content: space-between;
   align-items: center;
   padding-top: 70px;
+  margin-bottom: 90px;
+
 }
 
 .logo {
@@ -80,6 +82,7 @@ body {
 }
 .header-desc {
   width: 500px;
+  padding-top: 90px;
 
 }
 
@@ -96,6 +99,7 @@ body {
   font-size: 20px;
   font-weight: 500;
   line-height: 1.7;
+  margin-bottom: 35px;
 }
 
 .header-btn {
