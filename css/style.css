@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
   font-family: "Montserrat", sans-serif;
@@ -84,6 +88,8 @@ body {
   font-weight: 800;
   font-size: 48px;
   line-height: 1.3;
+  margin: 0;
+  margin-bottom: 35px;
 }
 
 .header-text {
@@ -93,9 +99,21 @@ body {
 }
 
 .header-btn {
+  display: inline-block;
+  height: 65px;
+  padding-left: 35px;
+  padding-right: 35px;
+  border-radius: 60px;
+  background-color: #fadb60;
+  background-image: linear-gradient(to top, #ffcc00 0%, #fadb60 100%);
 
+  /* Style for "Получить з" */
+  color: #000000;
+  font-size: 24px;
+  font-weight: 700;
+  text-decoration: none;
+  line-height: 62px;
 }
-
 .header-photo {
   width: 670px;
 
