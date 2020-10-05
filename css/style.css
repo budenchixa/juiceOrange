@@ -120,5 +120,23 @@ body {
 }
 .header-photo {
   width: 670px;
+}
 
+
+/* Иконки соц.сетей */
+.header-social {
+
+}
+.header__social-item {
+  font-size: 27px;
+  color: #3d3e3f;
+  text-decoration: none;
+  margin-right: 30px;
+}
+.header__social-item:last-child {
+  margin-right: 0;
+}
+/* прозрачность иконок при наведении курсора */
+.header__social-item:hover {
+  opacity: 0.8; 
 }
