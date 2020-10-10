@@ -32,7 +32,6 @@ body {
   align-items: center;
   padding-top: 70px;
   margin-bottom: 90px;
-
 }
 
 .logo {
@@ -78,12 +77,10 @@ body {
 /* header-content */
 .header-content {
   display: flex;
-
 }
 .header-desc {
   width: 500px;
   padding-top: 90px;
-
 }
 
 .header-title {
@@ -122,10 +119,8 @@ body {
   width: 670px;
 }
 
-
 /* Иконки соц.сетей */
 .header-social {
-
 }
 .header__social-item {
   font-size: 27px;
@@ -138,9 +133,8 @@ body {
 }
 /* прозрачность иконок при наведении курсора */
 .header__social-item:hover {
-  opacity: 0.8; 
+  opacity: 0.8;
 }
-
 
 /* подвал */
 .footer {
@@ -153,7 +147,7 @@ body {
   justify-content: center;
   align-items: center;
 
-/* Style for "Сверсталa Ю" */
+  /* Style for "Сверсталa Ю" */
   font-size: 16px;
   line-height: 2;
   font-weight: 500;
@@ -169,5 +163,4 @@ body {
 }
 .footer span:hover {
   text-decoration: underline;
-  
 }
